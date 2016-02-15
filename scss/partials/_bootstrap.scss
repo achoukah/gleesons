@@ -1,0 +1,130 @@
+/*
+* ==========================================================================
+* Bootstrap
+* ==========================================================================
+*/
+.btn-primary-bootstrap {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary-bootstrap:hover,
+.btn-primary-bootstrap:focus,
+.btn-primary-bootstrap:active,
+.btn-primary-bootstrap.active,
+.open .dropdown-toggle.btn-primary-bootstrap {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+.btn-primary-bootstrap:active,
+.btn-primary-bootstrap.active,
+.open .dropdown-toggle.btn-primary-bootstrap {
+  background-image: none;
+}
+.btn-primary-bootstrap.disabled,
+.btn-primary-bootstrap[disabled],
+fieldset[disabled] .btn-primary-bootstrap,
+.btn-primary-bootstrap.disabled:hover,
+.btn-primary-bootstrap[disabled]:hover,
+fieldset[disabled] .btn-primary-bootstrap:hover,
+.btn-primary-bootstrap.disabled:focus,
+.btn-primary-bootstrap[disabled]:focus,
+fieldset[disabled] .btn-primary-bootstrap:focus,
+.btn-primary-bootstrap.disabled:active,
+.btn-primary-bootstrap[disabled]:active,
+fieldset[disabled] .btn-primary-bootstrap:active,
+.btn-primary-bootstrap.disabled.active,
+.btn-primary-bootstrap[disabled].active,
+fieldset[disabled] .btn-primary-bootstrap.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary-bootstrap .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+.site-wrapper a.btn-default {
+  color: #333333;
+}
+.site-wrapper a.btn-default:hover,
+.site-wrapper a.btn-default:focus {
+  color: #333333;
+}
+.site-wrapper a.btn-default:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-primary {
+  color: #ffffff;
+}
+.site-wrapper a.btn-primary:hover,
+.site-wrapper a.btn-primary:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-primary:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-primary-bootstrap {
+  color: #ffffff;
+}
+.site-wrapper a.btn-primary-bootstrap:hover,
+.site-wrapper a.btn-primary-bootstrap:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-primary-bootstrap:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-warning {
+  color: #ffffff;
+}
+.site-wrapper a.btn-warning:hover,
+.site-wrapper a.btn-warning:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-warning:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-danger {
+  color: #ffffff;
+}
+.site-wrapper a.btn-danger:hover,
+.site-wrapper a.btn-danger:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-danger:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-success {
+  color: #ffffff;
+}
+.site-wrapper a.btn-success:hover,
+.site-wrapper a.btn-success:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-success:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.site-wrapper a.btn-info {
+  color: #ffffff;
+}
+.site-wrapper a.btn-info:hover,
+.site-wrapper a.btn-info:focus {
+  color: #ffffff;
+}
+.site-wrapper a.btn-info:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
