@@ -11,48 +11,48 @@ header.site-header {
 }
 header.site-header nav.navbar {
   background: transparent;
-  border-color: #265898;
-  border-top: thick solid #265898;
-  border-bottom: thin solid #265898;
+  border-color: $bl-01;
+  border-top: thick solid $bl-01;
+  border-bottom: thin solid $bl-01;
 }
 .navbar-header {
   margin-top: 1.2em;
 }
 .navbar-inverse .navbar-nav > .active > a {
   background: rgba(255,255,255,0.5);
-  color: #265898;
-  box-shadow: inset 0 -1em #265898;
+  color: $bl-01;
+  box-shadow: inset 0 -1em $bl-01;
 }
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   background: rgba(255,255,255,0.5);
-  box-shadow: inset 0 -1em #265898;
-  color: #265898;
+  box-shadow: inset 0 -1em $bl-01;
+  color: $bl-01;
 }
 .navbar-inverse .navbar-brand {
-  color: #265898;
+  color: $bl-01;
   padding-left: 0;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #265898;
+  color: $bl-01;
 }
 .navbar > .container .navbar-brand {
   margin-left: 0em;
 }
 .navbar-nav > li > a {
-  color: #265898;
+  color: $bl-01;
   padding: 2.4em 1em 1.6em;
 
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #265898;
+  color: $bl-01;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   background: rgba(255,255,255,0.5);
   color: #1b385a;
-  box-shadow: inset 0 -0.4em #265898;
+  box-shadow: inset 0 -0.4em $bl-01;
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse
@@ -65,8 +65,8 @@ header.site-header nav.navbar {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-top: solid 0 #265898;
-  border-bottom: solid 0 #265898;
+  border-top: solid 0 $bl-01;
+  border-bottom: solid 0 $bl-01;
 }
 
 /*
