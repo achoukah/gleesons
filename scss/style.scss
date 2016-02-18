@@ -36,26 +36,7 @@ html {
 
 
 
-/*
-* ==========================================================================
-* Site Wrapper
-* ==========================================================================
-*/
-.site-wrapper {
-  position: relative;
-  background-color: $wh-lt;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-.site-wrapper:before,
-.site-wrapper:after {
-  content: " ";
-  display: table;
-}
-.site-wrapper:after {
-  clear: both;
-}
+
 
 
 /*

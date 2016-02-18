@@ -14,9 +14,15 @@ header.site-header {
   border-color: $bl-md;
   border-top: thick solid $bl-md;
   border-bottom: thin solid $bl-md;
+
+  .container {
+    width: 100vw;
+  }
 }
+
 .navbar-header {
-  margin-top: 1.2em;
+  margin: 1.2em 0;
+  width: 20em;
 }
 .navbar-inverse .navbar-nav > .active > a {
   background: $wh-tr-5;
@@ -76,14 +82,20 @@ header.site-header {
 */
 .navbar-brand {
   font-size: 2em;
+  display: none;
 }
 .navbar-brand-image {
-  float: left;
-  padding: 0 15px;
+  // float: left;
+  padding: 0 ;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 @media (min-width: 680px) {
   .navbar > .container .navbar-brand-image {
-    margin-left: -15px;
+    // margin-left: -15px;
   }
 }
 
@@ -92,3 +104,4 @@ header.site-header {
 /* MOBILE */
 /* ------------------------ */
 /* ------------------------ */
+
