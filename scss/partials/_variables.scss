@@ -1,8 +1,52 @@
-// COLOURS
 
-$bl-01:           #265898;
+// VARIABLES
+  $bl-lt:           #4986D4;
+  $bl-md:           #265898;
+  $bl-dk:           #264265;
 
-$wh-lt:           #ffffff;
-$wh-md:           #eeeeee;
+  $or-lt:           #ff9c3e;
+  $or-md:           #ff4500;
+  $or-dk:           #d43e00;
 
-$gr-md:           #595959;
+  $rd-md: #c00;
+  $rd-lt: lighten($rd-md, 10%);
+  $rd-dk: darken($rd-md, 10%);
+
+  $wh-md: #ccc;
+  $wh-lt: lighten($wh-md, 20%);
+  $wh-dk: darken($wh-md, 20%);
+
+  $wh-tr-1: rgba($wh-lt, .1);
+  $wh-tr-2: rgba($wh-lt, .2);
+  $wh-tr-3: rgba($wh-lt, .3);
+  $wh-tr-4: rgba($wh-lt, .4);
+  $wh-tr-5: rgba($wh-lt, .5);
+  $wh-tr-6: rgba($wh-lt, .6);
+  $wh-tr-7: rgba($wh-lt, .7);
+  $wh-tr-8: rgba($wh-lt, .8);
+  $wh-tr-9: rgba($wh-lt, .9);
+
+  $bk-md: #333;
+  $bk-lt: lighten($bk-md, 10%);
+  $bk-dk: darken($bk-md, 10%);
+
+  $bk-tr-1: rgba($bk-dk, .1);
+  $bk-tr-2: rgba($bk-dk, .2);
+  $bk-tr-3: rgba($bk-dk, .3);
+  $bk-tr-4: rgba($bk-dk, .4);
+  $bk-tr-5: rgba($bk-dk, .5);
+  $bk-tr-6: rgba($bk-dk, .6);
+  $bk-tr-7: rgba($bk-dk, .7);
+  $bk-tr-8: rgba($bk-dk, .8);
+  $bk-tr-9: rgba($bk-dk, .9);
+
+// SOCIAL COLOURS
+
+  $fb:      #3b5998; // Facebook
+  $tw:      #55acee; // Twitter
+  $ig:      #3f729b; // Instagram
+  $go:      #dc4e41; // Google +
+  $pi:      #bd081c; // Pinterest
+  $li:      #007bb6; // LinkedIn
+  $gh:      #4183c4; // GitHub
+  $tu:      #35465c; // Tumblr

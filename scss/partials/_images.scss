@@ -3,6 +3,10 @@
 * WP Images
 * ==========================================================================
 */
+img {
+  width: auto;
+  height: auto;
+}
 img.alignleft {
   display: inline;
   float: left;
@@ -38,3 +42,4 @@ img.alignnone {
   font-size: .8em;
   font-style: italic;
 }
+

@@ -18,7 +18,7 @@
 
   <nav class="navbar navbar-static-top navbar-inverse" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
     <div class="container">
-      
+
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-header-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -26,11 +26,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <?php get_template_part( 'header', 'custom' ); ?>      
+        <?php get_template_part( 'header', 'custom' ); ?>
       </div>
-      
+
       <?php future_primary_menu(); ?>
-    
+
     </div>
   </nav>
 

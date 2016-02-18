@@ -1,8 +1,13 @@
 
 @import 'partials/variables';
 
+@import 'partials/container';
+@import 'partials/links';
 @import 'partials/meta';
-@import 'partials/bootstrap';
+// @import 'partials/bootstrap';
+@import 'partials/typography';
+
+@import 'partials/headings';
 
 @import 'partials/header';
 @import 'partials/footer';
@@ -14,7 +19,10 @@
 
 @import 'partials/gallery';
 @import 'partials/entry';
+@import 'partials/comments';
+
 @import 'partials/stuff';
+
 
 *,
 *::before,
@@ -26,35 +34,6 @@ html {
   box-sizing: border-box;
 }
 
-
-/*
-* ==========================================================================
-* Container
-* ==========================================================================
-*/
-@media (min-width: 680px) {
-  .container {
-    width: 640px;
-  }
-}
-@media (min-width: 992px) {
-  // .container {
-  //   width: 640px;
-  // }
-}
-/*
-* ==========================================================================
-* Links
-* ==========================================================================
-*/
-a {
-  color: $bl-01;
-  transition: all .2s ease-in-out;
-}
-a:hover,
-a:focus {
-  text-decoration: none;
-}
 
 
 /*
@@ -103,7 +82,7 @@ a:focus {
 }
 .loop-meta a:hover,
 .loop-meta a:focus {
-  color: $gr-md;
+  color: $bk-lt;
 }
 .loop-meta a:focus {
   outline: thin dotted;

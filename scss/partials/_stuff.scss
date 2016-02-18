@@ -36,7 +36,7 @@
 * ==========================================================================
 */
 .content-sidebar-wrapper {
-  padding-top: 100px;
+  padding-top: 5.7em;
   padding-bottom: 50px;
   flex: 1;
 }
@@ -75,107 +75,7 @@
 
 
 
-/*
-* ==========================================================================
-* Comments
-* ==========================================================================
-*/
-#comments .comments-title {
-  margin: 0 0 30px 0;
-  display: none;
-}
-#comments .no-comments,
-#comments .no-password {
-  text-align: center;
-  margin-bottom: 40px;
-}
-@media (max-width: 680px) {
-  #comments .no-comments,
-  #comments .no-password {
-    margin-bottom: 32px;
-  }
-}
-/*
-* ==========================================================================
-* Comment List
-* ==========================================================================
-*/
-.comment-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.comment-list .comment {
-  position: relative;
-  overflow: hidden;
-}
-.comment-list .comment.bypostauthor {
-  /** bypostauthor */
 
-}
-.comment-list .pingback-wrapper {
-  margin-bottom: 30px;
-}
-.comment-list .pingback-wrapper > .comment-body {
-  margin: 0;
-}
-.comment-list .comment-wrapper {
-  margin-bottom: 30px;
-}
-.comment-list .comment-wrapper > .comment-body .panel-heading:before,
-.comment-list .comment-wrapper > .comment-body .panel-heading:after {
-  content: " ";
-  display: table;
-}
-.comment-list .comment-wrapper > .comment-body .panel-heading:after {
-  clear: both;
-}
-.comment-list .comment-wrapper > .comment-body .comment-author-avatar-wrapper {
-  float: left;
-  width: 48px;
-  height: 48px;
-  margin: 0 15px 0 0;
-}
-.comment-list .comment-wrapper > .comment-body .comment-author-avatar-wrapper .avatar {
-  max-width: 100%;
-  height: auto;
-}
-.comment-list .comment-wrapper > .comment-body .comment-author-title {
-  margin: 0;
-}
-.comment-list .comment-wrapper > .comment-body .comment-meta {
-  margin: 0;
-}
-.comment-list .children {
-  list-style: none;
-  margin: 0 0 0 30px;
-  padding: 0;
-}
-/*
-* ==========================================================================
-* Comment Respond
-* ==========================================================================
-*/
-.comment-respond {
-  position: relative;
-  margin-bottom: 40px;
-}
-.comment-respond .comment-reply-title {
-  margin: 0 0 10px 0;
-}
-.comment-respond #cancel-comment-reply-link {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.comment-respond .required {
-  color: #d9534f;
-}
-@media (max-width: 680px) {
-  .comment-respond {
-    margin-bottom: 32px;
-  }
-}
 /*
 * ==========================================================================
 * Widget
@@ -319,7 +219,7 @@ iframe,
 object,
 video,
 audio {
-  max-width: 100% !important;
+  width: 100% !important;
 }
 /*
 * ==========================================================================

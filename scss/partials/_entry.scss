@@ -22,7 +22,7 @@
 }
 .entry-wrapper-single {
   padding-bottom: 50px;
-  border-bottom: solid 1px #eeeeee;
+  border-bottom: solid 1px $wh-md;
 }
 @media (max-width: 680px) {
   .entry-wrapper-single {
@@ -80,13 +80,14 @@
 * ==========================================================================
 */
 .entry-title {
-  color: #333333;
+  color: $bl-dk;
   margin-top: 0;
   margin-bottom: 20px;
   word-wrap: break-word;
+  display: none;
 }
 .entry-title a {
-  color: #333333;
+  color: $bl-md;
 }
 .entry-title a:hover,
 .entry-title a:focus {

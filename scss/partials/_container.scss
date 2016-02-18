@@ -1,0 +1,31 @@
+/*
+* ==========================================================================
+* Site Wrapper
+* ==========================================================================
+*/
+.site-wrapper {
+  position: relative;
+  background-color: $wh-lt;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-wrapper:before,
+.site-wrapper:after {
+  content: " ";
+  display: table;
+}
+.site-wrapper:after {
+  clear: both;
+}
+
+
+.container {
+  width: auto;
+  @media (min-width: 992px) {
+    width: 840px;
+  }
+  @media (min-width: 768px) {
+   width: 740px;
+  }
+}
