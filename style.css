@@ -144,23 +144,25 @@ header.site-header {
 * ==========================================================================
 */
 .navbar-header {
-  margin: 1.2em 0;
-  height: 20em; }
+  margin: 1em 0;
+  height: 5em; }
 
 .navbar-brand {
   font-size: 2em;
   display: none;
   color: #265898;
   padding-left: 0;
-  margin-left: 0em; }
+  margin-left: 0em;
+  height: 1.5em; }
   .navbar-brand:hover, .navbar-brand:focus {
     color: #265898; }
 
 .navbar-brand-image {
-  padding: 0; }
+  padding: 0;
+  height: inherit; }
   .navbar-brand-image img {
-    width: 100%;
-    height: auto; }
+    width: auto;
+    height: inherit; }
 
 /*
 * ==========================================================================
@@ -285,7 +287,7 @@ body.home {
         -o-object-fit: cover;
            object-fit: cover;
         position: relative;
-        margin-bottom: 7em; }
+        margin-bottom: 10em; }
       body.home .content-sidebar-wrapper .container .row {
         margin: 0;
         padding: 0; }
@@ -317,16 +319,99 @@ body.home header {
     text-shadow: 0 0 3em rgba(26, 26, 26, 0.5); }
   body.home header .navbar {
     border-bottom: medium solid #265898; }
+    body.home header .navbar .navbar-header {
+      height: 3em;
+      margin: 1em 0; }
 
 /*
 * ==========================================================================
-* Home Navigation
+* Full-width Template
 * ==========================================================================
 */
-body.home .navbar-header {
-  margin: 1em 0;
-  width: 10em;
-  height: auto; }
+body.page-template-template-full-width {
+  position: relative; }
+  body.page-template-template-full-width .entry-title {
+    display: none; }
+  body.page-template-template-full-width .content-sidebar-wrapper {
+    padding-top: 5em; }
+    body.page-template-template-full-width .content-sidebar-wrapper .container {
+      width: 100vw !important;
+      padding: 0;
+      margin: 0 0 1em 0;
+      position: relative; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container .entry-content {
+        position: relative; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container h2, body.page-template-template-full-width .content-sidebar-wrapper .container p, body.page-template-template-full-width .content-sidebar-wrapper .container ul {
+        margin: auto;
+        width: 620px; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container h2 {
+        margin-bottom: 1em; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container ul {
+        margin: 1em auto;
+        padding: 0.5em 1.2em; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container li {
+        padding: 0 0 0.25em 1em; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container p {
+        margin-bottom: 1.25em;
+        line-height: 1.5; }
+        body.page-template-template-full-width .content-sidebar-wrapper .container p:nth-child(1) {
+          width: 100vw;
+          height: auto;
+          left: 0;
+          display: block;
+          margin: 0 0 3sem 0;
+          float: none; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container .size-full {
+        width: 100vw !important;
+        height: auto;
+        -o-object-fit: cover;
+           object-fit: cover;
+        position: relative;
+        margin-bottom: 1em; }
+      body.page-template-template-full-width .content-sidebar-wrapper .container .row {
+        margin: 0;
+        padding: 0; }
+        body.page-template-template-full-width .content-sidebar-wrapper .container .row .col-lg-12 {
+          padding: 0; }
+  body.page-template-template-full-width .accordion {
+    width: 620px;
+    margin: auto; }
+  body.page-template-template-full-width h1, body.page-template-template-full-width h2, body.page-template-template-full-width h3, body.page-template-template-full-width h4, body.page-template-template-full-width h5, body.page-template-template-full-width p {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto; }
+  body.page-template-template-full-width table {
+    width: 620px !important;
+    margin-left: auto;
+    margin-right: auto; }
+    body.page-template-template-full-width table td, body.page-template-template-full-width table caption {
+      padding: 0.3em; }
+    body.page-template-template-full-width table thead th {
+      font-weight: 300;
+      color: rgba(26, 26, 26, 0.3); }
+    body.page-template-template-full-width table tr {
+      padding: 0; }
+    body.page-template-template-full-width table th {
+      padding: 0.3em; }
+    body.page-template-template-full-width table caption {
+      text-align: left;
+      border-top: thick solid #265898;
+      border-bottom: thin solid #265898; }
+
+/*
+* ==========================================================================
+* Full-width Template Header
+* ==========================================================================
+*/
+body.page-template-template-full-width header {
+  position: fixed;
+  height: 5em; }
+  body.page-template-template-full-width header .navbar {
+    border-bottom: medium solid #265898;
+    height: 5em; }
+    body.page-template-template-full-width header .navbar .navbar-header {
+      height: 3em;
+      margin: 1em 0; }
 
 /*
 * ==========================================================================

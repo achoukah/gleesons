@@ -1,19 +1,17 @@
 /*
 * ==========================================================================
-* HOME
+* Full-width Template
 * ==========================================================================
 */
 
-body.home {
+body.page-template-template-full-width {
   position: relative;
 
   .entry-title {
     display: none;
   }
   .content-sidebar-wrapper {
-    padding-top: 0;
-    padding-bottom: 1em;
-    width: 100vw;
+    padding-top: 5em;
 
     .container {
       width: 100vw !important;
@@ -66,10 +64,10 @@ body.home {
       }
       .size-full {
         width: 100vw !important;
-        height: calc(100vh - 5em);
+        height: auto;
         object-fit: cover;
         position: relative;
-        margin-bottom: 10em;
+        margin-bottom: 1em;
       }
       .row {
         margin: 0;
@@ -84,41 +82,66 @@ body.home {
       }
     }
   }
+  .accordion {
+    width: 620px;
+    margin: auto;
+  }
+  h1, h2, h3, h4, h5, p {
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table {
+    width: 620px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    * {
+
+    }
+
+    td, caption {
+      padding: 0.3em;
+    }
+    thead {
+
+      th {
+        font-weight: 300;
+        color: $bk-tr-3;
+      }
+    }
+    tr {
+       padding: 0;
+    }
+    th {
+      padding: 0.3em;
+    }
+
+    caption {
+      text-align: left;
+      border-top: thick solid $bl-md;
+      border-bottom: thin solid $bl-md;
+    }
+  }
 }
 
 /*
 * ==========================================================================
-* Home Header
+* Full-width Template Header
 * ==========================================================================
 */
 
-body.home {
+body.page-template-template-full-width {
   header {
-    position: absolute;
-    top: calc(100vh - 5em);
+    position: fixed;
+    // top: calc(100vh - 5em);
     height: 5em;
 
-    &.site-header {
 
-      &::before {
-      content: 'The Ironing Board';
-      width: 100%;
-      display: block;
-      color: $wh-lt;
-      font-size: 3em;
-      position: absolute;
-      top: -80vh;
-      z-index: 100;
-      text-align: center;
-      padding: 2em;
-      font-family: 'Noto Serif', serif;
-      font-weight: 300;
-      text-shadow: 0 0 3em $bk-tr-5;
-    }
-    }
 
     .navbar {
       border-bottom: medium solid $bl-md;
+      height: 5em;
 
       .navbar-header {
         height: 3em;
@@ -127,4 +150,3 @@ body.home {
     }
   }
 }
-
