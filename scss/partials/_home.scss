@@ -50,7 +50,7 @@ body.home {
         margin-bottom: 1.25em;
         line-height: 1.5;
 
-        &:nth-of-type(1) {
+        &:nth-child(1) {
           width: 100vw;
           height: auto;
           left: 0;
@@ -58,20 +58,18 @@ body.home {
           margin: 0 0 3sem 0;
           float: none;
 
+
+
         }
 
 
       }
-      img.size-full {
+      .size-full {
         width: 100vw !important;
         height: calc(100vh - 5em);
         object-fit: cover;
-
-        &::before {
-          content: 'The Ironing Board';
-          width: 100%;
-          display: block;
-        }
+        position: relative;
+        margin-bottom: 7em;
       }
       .row {
         margin: 0;
@@ -96,14 +94,47 @@ body.home {
 
 body.home {
   header {
-    // display: none;
     position: absolute;
     top: calc(100vh - 5em);
     height: 5em;
-    overflow: hidden;
+
+    &.site-header {
+
+      &::before {
+      content: 'The Ironing Board';
+      width: 100%;
+      display: block;
+      color: $wh-lt;
+      font-size: 3em;
+      position: absolute;
+      top: -80vh;
+      z-index: 100;
+      text-align: center;
+      padding: 2em;
+      font-family: 'Noto Serif', serif;
+      font-weight: 300;
+      text-shadow: 0 0 3em $bk-tr-5;
+    }
+    }
+
+    .navbar {
+      border-bottom: medium solid $bl-md;
+    }
   }
+
+}
+
+/*
+* ==========================================================================
+* Home Navigation
+* ==========================================================================
+*/
+
+body.home {
+
   .navbar-header {
     margin: 1em 0;
     width: 10em;
+    height: auto;
   }
 }
