@@ -10,6 +10,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
 <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700|Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body <?php body_class( 'media-center-xs' ); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div class="site-wrapper">

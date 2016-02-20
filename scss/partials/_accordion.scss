@@ -1,0 +1,37 @@
+
+/*
+* ==========================================================================
+* Accordion
+* ==========================================================================
+*/
+
+.accordion {
+
+  h3 {
+    background: $wh-lt;
+    color: $bl-md;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: thin solid $wh-tr-3;
+    cursor: pointer;
+
+    &::before {
+      content: '»';
+      color: $or-md;
+      margin-right: 0.8em;
+    }
+  }
+
+  .accordion-content {
+    border: medium solid $wh-lt;
+    border-bl: none;
+    padding: 0 0 1em 0;
+  }
+  br {
+    &:nth-of-type(1),
+    &:last-of-type {
+      display: none;
+    }
+  }
+}

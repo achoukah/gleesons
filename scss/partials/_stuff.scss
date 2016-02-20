@@ -6,9 +6,6 @@
 
 
 
-
-
-
 /*
 * ==========================================================================
 * Template Full Width Widgetized Wrapper
@@ -30,22 +27,7 @@
 
 
 
-/*
-* ==========================================================================
-* Content Sidebar Wrapper
-* ==========================================================================
-*/
-.content-sidebar-wrapper {
-  padding-top: 5.7em;
-  padding-bottom: 50px;
-  flex: 1;
-}
-@media (max-width: 680px) {
-  .content-sidebar-wrapper {
-    padding-top: 100px;
-    padding-bottom: 40px;
-  }
-}
+
 /*
 * ==========================================================================
 * WP Sticky Post

@@ -1,15 +1,17 @@
 
+@import 'partials/meta';
 @import 'partials/variables';
 
 @import 'partials/container';
 @import 'partials/links';
-@import 'partials/meta';
+
 // @import 'partials/bootstrap';
 @import 'partials/typography';
 
 @import 'partials/headings';
 
 @import 'partials/header';
+@import 'partials/nav';
 @import 'partials/footer';
 
 @import 'partials/home';
@@ -19,6 +21,7 @@
 
 @import 'partials/gallery';
 @import 'partials/entry';
+@import 'partials/accordion';
 @import 'partials/comments';
 
 @import 'partials/stuff';

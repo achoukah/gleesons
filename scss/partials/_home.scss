@@ -5,12 +5,8 @@
 */
 
 body.home {
-  header {
-    // display: none;
-    position: relative;
+  position: relative;
 
-
-  }
   .entry-title {
     display: none;
   }
@@ -68,6 +64,14 @@ body.home {
       }
       img.size-full {
         width: 100vw !important;
+        height: calc(100vh - 5em);
+        object-fit: cover;
+
+        &::before {
+          content: 'The Ironing Board';
+          width: 100%;
+          display: block;
+        }
       }
       .row {
         margin: 0;
@@ -81,5 +85,25 @@ body.home {
 
       }
     }
+  }
+}
+
+/*
+* ==========================================================================
+* Home Header
+* ==========================================================================
+*/
+
+body.home {
+  header {
+    // display: none;
+    position: absolute;
+    top: calc(100vh - 5em);
+    height: 5em;
+    overflow: hidden;
+  }
+  .navbar-header {
+    margin: 1em 0;
+    width: 10em;
   }
 }
