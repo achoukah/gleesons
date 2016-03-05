@@ -25,11 +25,11 @@ body.home {
         position: relative;
       }
 
-      h2, p, ul {
+      h2, h3, h4, h5, p, ul {
         margin: auto;
         width: 620px;
       }
-      h2 {
+      h2, h3, h4, h5 {
         margin-bottom: 1em;
       }
       ul {
@@ -111,7 +111,7 @@ body.home {
       z-index: 100;
       text-align: center;
       padding: 2em;
-      font-family: 'Noto Serif', serif;
+      font-family: $serif;
       font-weight: 300;
       text-shadow: 0 0 3em $bk-tr-5;
     }

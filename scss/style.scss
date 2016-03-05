@@ -19,6 +19,7 @@
 
 @import 'partials/blockquotes';
 @import 'partials/images';
+@import 'partials/tables';
 
 @import 'partials/gallery';
 @import 'partials/entry';
@@ -75,7 +76,7 @@ html {
   outline-offset: -2px;
 }
 .loop-meta .loop-meta-title {
-  font-family: 'Noto Serif', Georgia, serif;
+  font-family: $serif;
   font-size: 2em;
   font-weight: 500;
   line-height: 1.1;

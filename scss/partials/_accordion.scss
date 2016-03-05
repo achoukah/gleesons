@@ -8,19 +8,28 @@
 .accordion {
 
   h3 {
-    background: $wh-lt;
+    background: transparent;
     color: $bl-md;
-    font-size: 1.25em;
+    font-size: 1em;
     margin: 0;
     padding: 1rem 0;
     border-bottom: thin solid $wh-tr-3;
     cursor: pointer;
+    font-family: $sans;
+    transition: all .2s ease-in-out;
 
     &::before {
       content: '»';
       color: $or-md;
       margin-right: 0.8em;
     }
+    &:hover {
+      color: $bl-lt;
+    }
+
+  }
+  & + p {
+    margin-top: 1em !important;
   }
 
   .accordion-content {
