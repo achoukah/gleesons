@@ -15,6 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Site Wrapper
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
 .site-wrapper {
   position: relative;
   background-color: white;
@@ -30,27 +31,32 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
           flex-direction: column;
 }
 
+/* line 13, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
 .site-wrapper:before,
 .site-wrapper:after {
   content: " ";
   display: table;
 }
 
+/* line 18, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
 .site-wrapper:after {
   clear: both;
 }
 
+/* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
 .container {
   width: auto;
 }
 
 @media (min-width: 992px) {
+  /* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
   .container {
     width: 840px;
   }
 }
 
 @media (min-width: 768px) {
+  /* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
   .container {
     width: 740px;
   }
@@ -61,6 +67,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Content Sidebar Wrapper
 * ==========================================================================
 */
+/* line 38, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
 .content-sidebar-wrapper {
   padding-top: 8.4em;
   padding-bottom: 50px;
@@ -71,6 +78,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 }
 
 @media (max-width: 680px) {
+  /* line 44, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_container.scss */
   .content-sidebar-wrapper {
     padding-top: 100px;
     padding-bottom: 40px;
@@ -82,33 +90,39 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 * Links
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_links.scss */
 a {
   color: #ff4500;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_links.scss */
 a:hover,
 a:focus {
   color: #d43e00;
   text-decoration: none;
 }
 
+/* line 1, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 body {
   font-family: "Roboto Sans", Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
+/* line 5, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Roboto Slab", Georgia, serif;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 p {
   margin-bottom: 1.3em;
   line-height: 1.2;
 }
 
+/* line 15, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-family: "Roboto Slab", Georgia, serif;
@@ -116,31 +130,38 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h1 {
   margin-top: 0;
   font-size: 2.441em;
 }
 
+/* line 27, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h2 {
   font-size: 1.953em;
 }
 
+/* line 29, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h3 {
   font-size: 1.563em;
 }
 
+/* line 31, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 h4 {
   font-size: 1.25em;
 }
 
+/* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 small {
   font-size: 0.8em;
 }
 
+/* line 37, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_typography.scss */
 p:empty {
   display: none;
 }
 
+/* line 1, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_headings.scss */
 h1, h2, h3, h4, h5 {
   color: #264265;
 }
@@ -150,6 +171,7 @@ h1, h2, h3, h4, h5 {
 * Header
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 header.site-header {
   position: fixed;
   width: 100vw;
@@ -157,6 +179,7 @@ header.site-header {
   z-index: 10;
 }
 
+/* line 12, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar {
   background: transparent;
   border-color: #265898;
@@ -164,6 +187,7 @@ header.site-header {
   border-bottom: thin solid #265898;
 }
 
+/* line 18, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar .container {
   width: 100vw;
 }
@@ -173,11 +197,13 @@ header.site-header {
 * Brand/project name
 * ==========================================================================
 */
+/* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar-header {
   margin: 1em 0;
   height: 5em;
 }
 
+/* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar-brand {
   font-size: 2em;
   display: none;
@@ -187,15 +213,18 @@ header.site-header {
   height: 1.5em;
 }
 
+/* line 41, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   color: #265898;
 }
 
+/* line 47, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar-brand-image {
   padding: 0;
   height: inherit;
 }
 
+/* line 52, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_header.scss */
 .navbar-brand-image img {
   width: auto;
   height: inherit;
@@ -206,33 +235,39 @@ header.site-header {
 * Navigation
 * ==========================================================================
 */
+/* line 7, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse {
   position: relative;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav {
   position: absolute;
   right: 2em;
   bottom: 0;
 }
 
+/* line 14, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > .active > a {
   background: transparent;
   color: #265898;
   box-shadow: inset 0 -0.6em #265898;
 }
 
+/* line 19, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: transparent;
   box-shadow: inset 0 -1em #265898;
   color: #265898 !important;
 }
 
+/* line 26, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #265898;
   padding: 2em 1em 1.6em;
 }
 
+/* line 30, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   background: transparent;
   box-shadow: inset 0 -0.4em #265898;
@@ -244,15 +279,18 @@ header.site-header {
 * Mobile Navigation
 * ==========================================================================
 */
+/* line 53, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-toggle {
   border-color: #264265;
   background-color: #264265;
 }
 
+/* line 57, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #264265;
 }
 
+/* line 62, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-top: solid 0 #265898;
@@ -264,11 +302,13 @@ header.site-header {
 * Footer Tail Sidebars
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
 .site-footer {
   font-size: 0.8em;
   text-align: center;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
 .footer-tail-sidebars {
   background-color: #264265;
   padding-top: 25px;
@@ -276,6 +316,7 @@ header.site-header {
   border-top: solid medium #264265;
 }
 
+/* line 16, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
 .footer-tail-sidebars.widget-default .widget.widget-last,
 .footer-tail-sidebars.widget-inverse .widget.widget-last {
   padding-bottom: 0;
@@ -283,11 +324,13 @@ header.site-header {
   border-bottom: none;
 }
 
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
 .footer-tail-sidebars .theme-info {
   display: none;
 }
 
 @media (max-width: 680px) {
+  /* line 27, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
   .footer-tail-sidebars .theme-info {
     text-align: left;
     margin-top: 10px;
@@ -295,6 +338,7 @@ header.site-header {
 }
 
 @media (max-width: 680px) {
+  /* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_footer.scss */
   .footer-tail-sidebars {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -306,56 +350,65 @@ header.site-header {
 * HOME
 * ==========================================================================
 */
+/* line 7, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home {
   position: relative;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .entry-title {
   display: none;
 }
 
+/* line 13, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper {
   padding-top: 0;
   padding-bottom: 1em;
   width: 100vw;
 }
 
+/* line 18, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container {
-  width: 100vw !important;
+  width: 100vw;
   padding: 0;
   margin: 0 0 1em 0;
   position: relative;
 }
 
+/* line 24, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container .entry-content {
   position: relative;
 }
 
+/* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container h2, body.home .content-sidebar-wrapper .container h3, body.home .content-sidebar-wrapper .container h4, body.home .content-sidebar-wrapper .container h5, body.home .content-sidebar-wrapper .container p, body.home .content-sidebar-wrapper .container ul {
   margin: auto;
-  width: 620px;
 }
 
+/* line 32, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container h2, body.home .content-sidebar-wrapper .container h3, body.home .content-sidebar-wrapper .container h4, body.home .content-sidebar-wrapper .container h5 {
   margin-bottom: 1em;
 }
 
+/* line 35, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container ul {
   margin: 1em auto;
   padding: 0.5em 1.2em;
 }
 
+/* line 39, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container li {
   padding: 0 0 0.25em 1em;
 }
 
+/* line 49, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container p {
   margin-bottom: 1.25em;
   line-height: 1.5;
 }
 
+/* line 53, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container p:nth-child(1) {
-  width: 100vw;
   height: auto;
   left: 0;
   display: block;
@@ -363,6 +416,7 @@ body.home .content-sidebar-wrapper .container p:nth-child(1) {
   float: none;
 }
 
+/* line 67, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container .size-full {
   width: 100vw !important;
   height: calc(100vh - 5em);
@@ -372,11 +426,13 @@ body.home .content-sidebar-wrapper .container .size-full {
   margin-bottom: 10em;
 }
 
+/* line 74, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container .row {
   margin: 0;
   padding: 0;
 }
 
+/* line 78, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home .content-sidebar-wrapper .container .row .col-lg-12 {
   padding: 0;
 }
@@ -386,32 +442,36 @@ body.home .content-sidebar-wrapper .container .row .col-lg-12 {
 * Home Header
 * ==========================================================================
 */
+/* line 96, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header {
   position: absolute;
   top: calc(100vh - 5em);
   height: 5em;
 }
 
+/* line 103, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header.site-header::before {
   content: 'The Ironing Board';
   width: 100%;
   display: block;
   color: white;
   font-size: 3em;
+  line-height: 1;
   position: absolute;
-  top: -80vh;
+  top: -75vh;
   z-index: 100;
   text-align: center;
-  padding: 2em;
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: 300;
   text-shadow: 0 0 3em rgba(26, 26, 26, 0.5);
 }
 
+/* line 121, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header .navbar {
   border-bottom: medium solid #265898;
 }
 
+/* line 124, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header .navbar .navbar-header {
   height: 3em;
   margin: 1em 0;
@@ -422,18 +482,22 @@ body.home header .navbar .navbar-header {
 * Full-width Template
 * ==========================================================================
 */
+/* line 7, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width {
   position: relative;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .entry-title {
   display: none;
 }
 
+/* line 13, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper {
   padding-top: 5em;
 }
 
+/* line 16, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container {
   width: 100vw !important;
   padding: 0;
@@ -441,33 +505,40 @@ body.page-template-template-full-width .content-sidebar-wrapper .container {
   position: relative;
 }
 
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container .entry-content {
   position: relative;
 }
 
+/* line 26, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container h2, body.page-template-template-full-width .content-sidebar-wrapper .container p, body.page-template-template-full-width .content-sidebar-wrapper .container ul {
   margin: auto;
   width: 620px;
 }
 
+/* line 30, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container h2 {
   margin-bottom: 1em;
 }
 
+/* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container ul {
   margin: 1em auto;
   padding: 0.5em 1.2em;
 }
 
+/* line 37, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container li {
   padding: 0 0 0.25em 1em;
 }
 
+/* line 47, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container p {
   margin-bottom: 1.25em;
   line-height: 1.5;
 }
 
+/* line 51, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container p:nth-child(1) {
   width: 100vw;
   height: auto;
@@ -477,6 +548,7 @@ body.page-template-template-full-width .content-sidebar-wrapper .container p:nth
   float: none;
 }
 
+/* line 65, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container .size-full {
   width: 100vw !important;
   height: auto;
@@ -486,49 +558,59 @@ body.page-template-template-full-width .content-sidebar-wrapper .container .size
   margin-bottom: 1em;
 }
 
+/* line 72, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container .row {
   margin: 0;
   padding: 0;
 }
 
+/* line 76, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .content-sidebar-wrapper .container .row .col-lg-12 {
   padding: 0;
 }
 
+/* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width .accordion {
   width: 620px;
   margin: auto;
 }
 
+/* line 89, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width h1, body.page-template-template-full-width h2, body.page-template-template-full-width h3, body.page-template-template-full-width h4, body.page-template-template-full-width h5, body.page-template-template-full-width p {
   width: 620px;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* line 94, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table {
   width: 620px !important;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* line 103, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table td, body.page-template-template-full-width table caption {
   padding: 0.3em;
 }
 
+/* line 108, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table thead th {
   font-weight: 300;
   color: rgba(26, 26, 26, 0.3);
 }
 
+/* line 113, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table tr {
   padding: 0;
 }
 
+/* line 116, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table th {
   padding: 0.3em;
 }
 
+/* line 120, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width table caption {
   text-align: left;
   border-top: thick solid #265898;
@@ -540,16 +622,19 @@ body.page-template-template-full-width table caption {
 * Full-width Template Header
 * ==========================================================================
 */
+/* line 135, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width header {
   position: fixed;
   height: 5em;
 }
 
+/* line 142, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width header .navbar {
   border-bottom: medium solid #265898;
   height: 5em;
 }
 
+/* line 146, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_full-width-template.scss */
 body.page-template-template-full-width header .navbar .navbar-header {
   height: 3em;
   margin: 1em 0;
@@ -560,15 +645,16 @@ body.page-template-template-full-width header .navbar .navbar-header {
 * Block quotes
 * ==========================================================================
 */
+/* line 7, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_blockquotes.scss */
 blockquote {
   padding: 1em;
-  width: 620px;
   margin: 1em auto 2em;
   font-style: italic;
   border-left: thick solid #ff4500;
-  padding: 0 0 0 1em;
+  padding: 1em;
 }
 
+/* line 15, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_blockquotes.scss */
 blockquote strong {
   font-weight: 700;
   border-top: thin solid #ff9c3e;
@@ -576,16 +662,21 @@ blockquote strong {
   padding-top: 0.8em;
 }
 
-blockquote p {
-  width: 620px !important;
-  margin: 0 auto 1em !important;
-  display: block !important;
-  position: relative !important;
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_blockquotes.scss */
+blockquote > p {
+  margin: 0 auto 1em;
+  display: block;
   font-size: 1.2em;
 }
 
-blockquote p:last-child {
-  margin: 0 auto !important;
+/* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_blockquotes.scss */
+blockquote > p:last-child {
+  margin: 0 auto;
+}
+
+/* line 31, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_blockquotes.scss */
+blockquote > p:nth-child(1) {
+  width: auto;
 }
 
 /*
@@ -593,23 +684,27 @@ blockquote p:last-child {
 * WP Images
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 img {
   width: auto;
   height: auto;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 img.alignleft {
   display: inline;
   float: left;
   margin: 20px 20px 20px 0;
 }
 
+/* line 15, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 img.alignright {
   display: inline;
   float: right;
   margin: 20px 0 20px 20px;
 }
 
+/* line 20, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 img.aligncenter,
 img.centered {
   display: block;
@@ -617,6 +712,7 @@ img.centered {
   clear: both;
 }
 
+/* line 26, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 img.alignnone {
   display: inline;
 }
@@ -626,12 +722,14 @@ img.alignnone {
 * WP Captions
 * ==========================================================================
 */
+/* line 35, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 .wp-caption {
   max-width: 100%;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
+/* line 40, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_images.scss */
 .wp-caption .wp-caption-text {
   margin: 12px 12px 0 0;
   font-size: .8em;
@@ -643,16 +741,19 @@ img.alignnone {
 * Tables
 * ==========================================================================
 */
+/* line 11, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_tables.scss */
 .table-responsive thead tr th {
   border: none !important;
   color: rgba(26, 26, 26, 0.4) !important;
 }
 
+/* line 17, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_tables.scss */
 .table-responsive tbody {
   padding-bottom: 1em !important;
   border-bottom: thin solid rgba(26, 26, 26, 0.4);
 }
 
+/* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_tables.scss */
 .table-responsive tbody tr td:empty {
   border-top: 0 !important;
   padding-top: 0;
@@ -660,6 +761,7 @@ img.alignnone {
   margin: 0;
 }
 
+/* line 30, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_tables.scss */
 .table-responsive tbody tr td:empty + td {
   border-top: 0 !important;
   padding-top: 0;
@@ -667,6 +769,7 @@ img.alignnone {
   margin: 0;
 }
 
+/* line 41, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_tables.scss */
 .table-responsive tbody small {
   display: block;
 }
@@ -676,10 +779,12 @@ img.alignnone {
 * WP Gallery
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 dl.gallery-item {
   margin: 0;
 }
 
+/* line 9, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 dl.gallery-item img {
   padding: 5px;
   margin-bottom: 10px;
@@ -689,29 +794,35 @@ dl.gallery-item img {
   height: auto;
 }
 
+/* line 19, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery {
   margin: 0 auto 20px auto;
 }
 
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery a img {
   border: none;
 }
 
+/* line 25, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery br + br {
   display: none;
 }
 
+/* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery .gallery-item {
   float: left;
   text-align: center;
   margin-bottom: 10px;
 }
 
+/* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-item a {
   width: 90%;
   display: block;
 }
 
+/* line 37, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-caption {
   width: 90%;
   margin: 0 0 10px 0;
@@ -719,74 +830,92 @@ dl.gallery-item img {
   font-style: italic;
 }
 
+/* line 43, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-caption a {
   display: inline;
 }
 
+/* line 46, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-1 .gallery-item {
   width: 100%;
 }
 
+/* line 49, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-2 .gallery-item {
   width: 50%;
 }
 
+/* line 52, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-3 .gallery-item {
   width: 33%;
 }
 
+/* line 55, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-4 .gallery-item {
   width: 25%;
 }
 
+/* line 58, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-4 .gallery-item img {
   width: 98%;
 }
 
+/* line 61, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-5 .gallery-item {
   width: 20%;
 }
 
+/* line 64, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-5 .gallery-item img {
   width: 96%;
 }
 
+/* line 67, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-6 .gallery-item {
   width: 16%;
 }
 
+/* line 70, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-6 .gallery-item img {
   width: 94%;
 }
 
+/* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-7 .gallery-item {
   width: 14%;
 }
 
+/* line 76, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-7 .gallery-item img {
   width: 90%;
 }
 
+/* line 79, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-8 .gallery-item {
   width: 12%;
 }
 
+/* line 82, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-8 .gallery-item img {
   width: 88%;
 }
 
+/* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-9 .gallery-item {
   width: 11%;
 }
 
+/* line 88, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-9 .gallery-item img {
   width: 86%;
 }
 
+/* line 91, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-10 .gallery-item {
   width: 10%;
 }
 
+/* line 94, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_gallery.scss */
 .gallery-columns-10 .gallery-item img {
   width: 84%;
 }
@@ -796,33 +925,39 @@ dl.gallery-item img {
 * Entry Wrapper
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-wrapper {
   position: relative;
   margin-bottom: 50px;
 }
 
 @media (max-width: 680px) {
+  /* line 11, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-wrapper {
     margin-bottom: 40px;
   }
 }
 
+/* line 15, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-wrapper:before,
 .entry-wrapper:after {
   content: " ";
   display: table;
 }
 
+/* line 20, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-wrapper:after {
   clear: both;
 }
 
+/* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-wrapper-single {
   padding-bottom: 50px;
   border-bottom: solid 1px #ccc;
 }
 
 @media (max-width: 680px) {
+  /* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-wrapper-single {
     padding-bottom: 40px;
   }
@@ -833,11 +968,13 @@ dl.gallery-item img {
 * Entry Content
 * ==========================================================================
 */
+/* line 37, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-content {
   margin-bottom: 25px;
   word-wrap: break-word;
 }
 
+/* line 41, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-content img {
   display: block;
   max-width: 100%;
@@ -849,10 +986,12 @@ dl.gallery-item img {
 * Entry Content Attachment
 * ==========================================================================
 */
+/* line 51, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-content-attachment {
   text-align: center;
 }
 
+/* line 54, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-content-attachment img {
   margin: 0 auto;
 }
@@ -862,10 +1001,12 @@ dl.gallery-item img {
 * Entry More Link
 * ==========================================================================
 */
+/* line 62, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-more-link.btn {
   margin: 20px 0 0 0;
 }
 
+/* line 65, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-more-link-wrapper {
   display: block;
   margin: 20px 0 0 0;
@@ -876,6 +1017,7 @@ dl.gallery-item img {
 * Entry Post Parent Link Wrapper
 * ==========================================================================
 */
+/* line 74, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-post-parent-link-wrapper {
   text-align: center;
 }
@@ -885,6 +1027,7 @@ dl.gallery-item img {
 * Entry Title
 * ==========================================================================
 */
+/* line 82, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-title {
   color: #264265;
   margin-top: 0;
@@ -893,15 +1036,18 @@ dl.gallery-item img {
   display: none;
 }
 
+/* line 89, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-title a {
   color: #265898;
 }
 
+/* line 92, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-title a:hover,
 .entry-title a:focus {
   color: #595959;
 }
 
+/* line 96, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-title a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -913,26 +1059,31 @@ dl.gallery-item img {
 * Entry Meta
 * ==========================================================================
 */
+/* line 106, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta {
   font-size: 13px;
   color: #333333;
 }
 
+/* line 110, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta a {
   color: #333333;
 }
 
+/* line 113, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta a:hover,
 .entry-meta a:focus {
   color: #595959;
 }
 
+/* line 117, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/* line 122, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta-top {
   margin-top: 0;
   margin-bottom: 10px;
@@ -943,6 +1094,7 @@ dl.gallery-item img {
 * Entry Meta Sep
 * ==========================================================================
 */
+/* line 131, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-meta-sep {
   display: inline-block;
   margin: 0 10px;
@@ -953,6 +1105,7 @@ dl.gallery-item img {
 * Entry Featured Image Wrapper
 * ==========================================================================
 */
+/* line 140, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-featured-image-wrapper {
   float: left;
   max-width: 380px;
@@ -961,6 +1114,7 @@ dl.gallery-item img {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* line 147, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-featured-image-wrapper {
     max-width: 350px;
     margin: 0 20px 60px 0;
@@ -968,6 +1122,7 @@ dl.gallery-item img {
 }
 
 @media (max-width: 680px) {
+  /* line 153, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-featured-image-wrapper {
     float: none;
     max-width: 100%;
@@ -975,10 +1130,12 @@ dl.gallery-item img {
   }
 }
 
+/* line 159, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .lt-ie9 .entry-featured-image-wrapper {
   width: 380px;
 }
 
+/* line 162, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-featured-image-onecol-wrapper {
   float: left;
   max-width: 500px;
@@ -987,6 +1144,7 @@ dl.gallery-item img {
 }
 
 @media (min-width: 681px) {
+  /* line 169, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-featured-image-onecol-wrapper {
     max-width: 450px;
     margin: 0 20px 60px 0;
@@ -994,6 +1152,7 @@ dl.gallery-item img {
 }
 
 @media (max-width: 680px) {
+  /* line 175, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-featured-image-onecol-wrapper {
     float: none;
     max-width: 100%;
@@ -1001,6 +1160,7 @@ dl.gallery-item img {
   }
 }
 
+/* line 181, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .lt-ie9 .entry-featured-image-onecol-wrapper {
   width: 500px;
 }
@@ -1010,6 +1170,7 @@ dl.gallery-item img {
 * Entry Media Wrapper
 * ==========================================================================
 */
+/* line 189, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-media-wrapper {
   margin: 0 0 25px 0;
 }
@@ -1019,20 +1180,24 @@ dl.gallery-item img {
 * Entry Post Author Wrapper
 * ==========================================================================
 */
+/* line 197, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-post-author-wrapper {
   margin-bottom: 50px;
 }
 
+/* line 200, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-post-author-wrapper .entry-post-author-body {
   margin: 0;
 }
 
+/* line 203, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
 .entry-post-author-wrapper .entry-post-author-avatar {
   float: left;
   margin: 0 15px 0 0;
 }
 
 @media (max-width: 680px) {
+  /* line 208, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_entry.scss */
   .entry-post-author-wrapper {
     margin-bottom: 40px;
   }
@@ -1043,6 +1208,7 @@ dl.gallery-item img {
 * Accordion
 * ==========================================================================
 */
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion h3 {
   background: transparent;
   color: #265898;
@@ -1056,26 +1222,31 @@ dl.gallery-item img {
   transition: all .2s ease-in-out;
 }
 
+/* line 21, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion h3::before {
   content: '»';
   color: #ff4500;
   margin-right: 0.8em;
 }
 
+/* line 26, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion h3:hover {
   color: #4986D4;
 }
 
+/* line 31, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion + p {
   margin-top: 1em !important;
 }
 
+/* line 35, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion .accordion-content {
   border: medium solid white;
   border-bl: none;
   padding: 0 0 1em 0;
 }
 
+/* line 41, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_accordion.scss */
 .accordion br:nth-of-type(1), .accordion br:last-of-type {
   display: none;
 }
@@ -1085,11 +1256,13 @@ dl.gallery-item img {
 * Comments
 * ==========================================================================
 */
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 #comments .comments-title {
   margin: 0 0 30px 0;
   display: none;
 }
 
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 #comments .no-comments,
 #comments .no-password {
   text-align: center;
@@ -1097,6 +1270,7 @@ dl.gallery-item img {
 }
 
 @media (max-width: 680px) {
+  /* line 16, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
   #comments .no-comments,
   #comments .no-password {
     margin-bottom: 32px;
@@ -1108,43 +1282,52 @@ dl.gallery-item img {
 * Comment List
 * ==========================================================================
 */
+/* line 26, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+/* line 31, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment {
   position: relative;
   overflow: hidden;
 }
 
+/* line 35, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment.bypostauthor {
   /** bypostauthor */
 }
 
+/* line 39, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .pingback-wrapper {
   margin-bottom: 30px;
 }
 
+/* line 42, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .pingback-wrapper > .comment-body {
   margin: 0;
 }
 
+/* line 45, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper {
   margin-bottom: 30px;
 }
 
+/* line 48, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .panel-heading:before,
 .comment-list .comment-wrapper > .comment-body .panel-heading:after {
   content: " ";
   display: table;
 }
 
+/* line 53, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .panel-heading:after {
   clear: both;
 }
 
+/* line 56, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .comment-author-avatar-wrapper {
   float: left;
   width: 48px;
@@ -1152,19 +1335,23 @@ dl.gallery-item img {
   margin: 0 15px 0 0;
 }
 
+/* line 62, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .comment-author-avatar-wrapper .avatar {
   max-width: 100%;
   height: auto;
 }
 
+/* line 66, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .comment-author-title {
   margin: 0;
 }
 
+/* line 69, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .comment-wrapper > .comment-body .comment-meta {
   margin: 0;
 }
 
+/* line 72, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-list .children {
   list-style: none;
   margin: 0 0 0 30px;
@@ -1176,26 +1363,31 @@ dl.gallery-item img {
 * Comment Respond
 * ==========================================================================
 */
+/* line 82, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-respond {
   position: relative;
   margin-bottom: 40px;
 }
 
+/* line 86, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-respond .comment-reply-title {
   margin: 0 0 10px 0;
 }
 
+/* line 89, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-respond #cancel-comment-reply-link {
   position: absolute;
   top: 0;
   right: 0;
 }
 
+/* line 94, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
 .comment-respond .required {
   color: #d9534f;
 }
 
 @media (max-width: 680px) {
+  /* line 98, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_comments.scss */
   .comment-respond {
     margin-bottom: 32px;
   }
@@ -1211,16 +1403,19 @@ dl.gallery-item img {
 * Template Full Width Widgetized Wrapper
 * ==========================================================================
 */
+/* line 14, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .template-full-width-widgetized-wrapper {
   position: relative;
 }
 
+/* line 17, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .template-full-width-widgetized-wrapper:before,
 .template-full-width-widgetized-wrapper:after {
   content: " ";
   display: table;
 }
 
+/* line 22, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .template-full-width-widgetized-wrapper:after {
   clear: both;
 }
@@ -1230,6 +1425,7 @@ dl.gallery-item img {
 * WP Sticky Post
 * ==========================================================================
 */
+/* line 36, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .sticky {
   /** Fors Sticky Posts */
 }
@@ -1239,6 +1435,7 @@ dl.gallery-item img {
 * WP Image Smiley
 * ==========================================================================
 */
+/* line 50, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .entry-content img.wp-smiley {
   border: none;
   margin-bottom: 0;
@@ -1251,6 +1448,7 @@ dl.gallery-item img {
 * Widget
 * ==========================================================================
 */
+/* line 66, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget {
   width: 100%;
   color: #333333;
@@ -1261,21 +1459,25 @@ dl.gallery-item img {
   border-bottom: solid 1px #cccccc;
 }
 
+/* line 75, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget a {
   color: #333333;
 }
 
+/* line 78, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget a:hover,
 .widget a:focus {
   color: #595959;
 }
 
+/* line 82, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/* line 87, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget .widget-title {
   color: #333333;
   font-family: "Roboto Slab", Georgia, serif;
@@ -1284,39 +1486,46 @@ dl.gallery-item img {
   margin-bottom: 25px;
 }
 
+/* line 94, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget .widget-title span {
   display: block;
 }
 
+/* line 97, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget .widget-inside > ul,
 .widget .widget-inside > ol {
   padding-left: 20px;
   margin-bottom: 0;
 }
 
+/* line 102, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget .widget-inside > ul ul,
 .widget .widget-inside > ol ul {
   padding-left: 20px;
 }
 
+/* line 106, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+/* line 111, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget.widget-last {
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: none;
 }
 
+/* line 116, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget:before,
 .widget:after {
   content: " ";
   display: table;
 }
 
+/* line 121, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget:after {
   clear: both;
 }
@@ -1326,30 +1535,36 @@ dl.gallery-item img {
 * Widget Inverse
 * ==========================================================================
 */
+/* line 129, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget {
   color: #eeeeee;
   border-bottom: solid 1px #b51622;
 }
 
+/* line 133, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget a {
   color: #eeeeee;
 }
 
+/* line 136, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget a:hover,
 .widget-inverse .widget a:focus {
   color: #ffffff;
 }
 
+/* line 140, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/* line 145, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget .widget-title {
   color: #ffffff;
 }
 
+/* line 148, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-inverse .widget.widget-last {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1361,15 +1576,18 @@ dl.gallery-item img {
 * Widget Default
 * ==========================================================================
 */
+/* line 158, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-default .widget .btn-primary {
   color: #333333;
 }
 
+/* line 161, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-default .widget .btn-primary:hover,
 .widget-default .widget .btn-primary:focus {
   color: #595959;
 }
 
+/* line 165, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget-default .widget.widget-last {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1381,6 +1599,7 @@ dl.gallery-item img {
 * Widgetized Wrapper Widget
 * ==========================================================================
 */
+/* line 175, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .footer-tail-sidebars .widget {
   border: none;
   padding: 0;
@@ -1392,11 +1611,13 @@ dl.gallery-item img {
 * Search Form Widget
 * ==========================================================================
 */
+/* line 185, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 .widget .searchform .form-group {
   width: 70%;
 }
 
 @media (max-width: 1199px) {
+  /* line 189, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
   .widget .searchform .form-group {
     width: 100%;
     margin-bottom: 10px;
@@ -1408,6 +1629,7 @@ dl.gallery-item img {
 * Responsive Tags
 * ==========================================================================
 */
+/* line 199, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
 embed,
 iframe,
 object,
@@ -1422,12 +1644,14 @@ audio {
 * ==========================================================================
 */
 @media (max-width: 680px) {
+  /* line 212, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
   .media-center-xs,
   .text-left,
   .text-right,
   .text-center {
     text-align: left;
   }
+  /* line 218, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
   .media-center-xs ul,
   .text-left ul,
   .text-right ul,
@@ -1438,6 +1662,7 @@ audio {
   .text-center ol {
     list-style: none;
   }
+  /* line 228, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_stuff.scss */
   .media-center-xs img,
   .text-left img,
   .text-right img,
@@ -1446,12 +1671,14 @@ audio {
   }
 }
 
+/* line 32, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
+/* line 38, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 html {
   box-sizing: border-box;
 }
@@ -1461,6 +1688,7 @@ html {
 * Loop Meta
 * ==========================================================================
 */
+/* line 52, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta {
   color: #333333;
   padding-top: 50px;
@@ -1471,27 +1699,32 @@ html {
 }
 
 @media (max-width: 680px) {
+  /* line 61, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
   .loop-meta {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
 
+/* line 66, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta a {
   color: #333333;
 }
 
+/* line 69, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta a:hover,
 .loop-meta a:focus {
   color: #4d4d4d;
 }
 
+/* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/* line 78, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta .loop-meta-title {
   font-family: "Roboto Slab", Georgia, serif;
   font-size: 2em;
@@ -1501,6 +1734,7 @@ html {
   text-transform: uppercase;
 }
 
+/* line 86, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .loop-meta .loop-meta-description {
   margin: 10px 0 0 0;
 }
@@ -1511,6 +1745,7 @@ html {
 * ==========================================================================
 */
 @media (max-width: 680px) {
+  /* line 95, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
   .content {
     padding-bottom: 40px;
   }
@@ -1521,21 +1756,25 @@ html {
 * WP Alignments
 * ==========================================================================
 */
+/* line 105, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 20px;
 }
 
+/* line 110, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 20px;
 }
 
+/* line 115, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/style.scss */
 .aligncenter {
   clear: both;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/*# sourceMappingURL=style.css.map */
