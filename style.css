@@ -507,7 +507,14 @@ body.home header.site-header::before {
   background-size: cover;
 }
 
-/* line 125, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
+@media (max-width: 768px) {
+  /* line 103, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
+  body.home header.site-header::before {
+    padding: 1.5em 0.5em 0;
+  }
+}
+
+/* line 133, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header .navbar {
   top: calc(100vh - 88px);
 }

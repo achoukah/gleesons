@@ -120,7 +120,15 @@ body.home {
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
+
+        @include mobile {
+          padding: 1.5em 0.5em 0;
+        }
+        @include tablet {
+
+        }
       }
+
     }
     .navbar{
       top: calc(100vh - 88px);
