@@ -11,7 +11,7 @@ body.home {
     display: none;
   }
   .content-sidebar-wrapper {
-    padding-top: 0;
+    padding-top: 110vh;
     padding-bottom: 1em;
     width: 100vw;
 
@@ -27,7 +27,7 @@ body.home {
 
       h2, h3, h4, h5, p, ul {
         margin: auto;
-        width: 620px;
+        // width: 620px;
       }
       h2, h3, h4, h5 {
         margin-bottom: 1em;
@@ -66,8 +66,8 @@ body.home {
       }
       .size-full {
         width: 100vw !important;
-        height: calc(100vh - 5em);
-        object-fit: cover;
+        // height: calc(100vh - 5em);
+        // object-fit: cover;
         position: relative;
         margin-bottom: 10em;
       }
@@ -95,35 +95,35 @@ body.home {
 body.home {
   header {
     position: absolute;
-    top: calc(100vh - 5em);
+    top: 0;
     height: calc(5em + 8px);
 
     &.site-header {
 
       &::before {
-      content: 'The Ironing Board';
-      width: 100%;
-      display: block;
-      color: $wh-lt;
-      font-size: 3em;
-      position: absolute;
-      top: -80vh;
-      z-index: 100;
-      text-align: center;
-      padding: 2em;
-      font-family: $serif;
-      font-weight: 300;
-      text-shadow: 0 0 3em $bk-tr-5;
-    }
-    }
-
-    .navbar {
-      border-bottom: medium solid $bl-md;
-
-      .navbar-header {
-        height: 3em;
-        margin: 1em 0;
+        content: 'The Ironing Board';
+        width: 100%;
+        height: calc(100vh - 88px);
+        display: block;
+        color: $wh-lt;
+        font-size: 3em;
+        line-height: 1;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        text-align: center;
+        padding: 2em;
+        font-family: $serif;
+        font-weight: 300;
+        text-shadow: 0 0 3em $bk-tr-5;
+        background-image: url(images/headers/ironing-board.jpg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
       }
+    }
+    .navbar{
+      top: calc(100vh - 88px);
     }
   }
 }

@@ -233,6 +233,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/headers\/ironing-board.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.15617e+06,
+		"inputAbbreviatedPath": "\/images\/headers\/ironing-board.jpg",
+		"outputAbbreviatedPath": "\/images\/headers\/ironing-board.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/headers\/logo-stop-ironing-head-blue-284x80.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3661,8 +3672,8 @@
 		"useLibsass": 0
 		},
 	"\/scss\/style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
+		"createSourceMap": 1,
+		"debugStyle": 2,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,

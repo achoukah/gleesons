@@ -10,16 +10,17 @@
   .navbar-nav {
     position: absolute;
     right: 2em;
-    bottom: 0;
+    top: 5em;
+    background: $wh-lt;
 
     > .active > a {
-      background: $wh-lt;
+      background: transparent;
       color: $bl-md;
       box-shadow: inset 0 -0.6em $bl-md;
 
       &:hover,
       &:focus {
-        background: $wh-lt;
+        background: transparent;
         box-shadow: inset 0 -1em $bl-md ;
         color: $bl-md !important;
       }
@@ -27,7 +28,7 @@
     > li > a {
       color: $bl-md;
       padding: 2em 1em 1.6em;
-      background: $wh-lt;
+      background: transparent;
 
       &:hover,
       &:focus {
@@ -40,7 +41,46 @@
 }
 
 
+.navbar {
 
+
+
+
+  .navbar-header-collapse {
+
+  }
+  .navbar-header {
+    height: 3em;
+    margin: 1em 0;
+    background: $wh-lt;
+
+
+    @include mobile {
+
+    }
+    @include tablet {
+
+    }
+    .navbar-brand-image {
+      display: block;
+
+      @include mobile {
+
+      }
+      @include tablet {
+
+      }
+      img {
+        @include mobile {
+          margin: 0;
+        }
+        @include tablet {
+
+        }
+      }
+    }
+  }
+}
 
 
 
@@ -50,13 +90,15 @@
 * Mobile Navigation
 * ==========================================================================
 */
-.navbar-inverse {
+.navbar {
+  background-color: $wh-lt;
 
   .navbar-toggle {
     border-color: $bl-dk;
     background-color: $bl-dk;
     width: 5rem;
     height: 5rem;
+    margin: 0;
     border-radius: 0;
 
     &:hover,
@@ -77,9 +119,7 @@
     border-bottom: solid 0 $bl-md;
   }
 
-  .navbar-brand-image {
-    display: block;
-  }
+
   .navbar-collapse {
 
   }
