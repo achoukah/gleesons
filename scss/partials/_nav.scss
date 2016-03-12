@@ -11,14 +11,15 @@
     position: absolute;
     right: 2em;
     bottom: 0;
+
     > .active > a {
-      background: transparent;
+      background: $wh-lt;
       color: $bl-md;
       box-shadow: inset 0 -0.6em $bl-md;
 
       &:hover,
       &:focus {
-        background: transparent;
+        background: $wh-lt;
         box-shadow: inset 0 -1em $bl-md ;
         color: $bl-md !important;
       }
@@ -26,10 +27,11 @@
     > li > a {
       color: $bl-md;
       padding: 2em 1em 1.6em;
+      background: $wh-lt;
 
       &:hover,
       &:focus {
-        background: transparent;
+        // background: transparent;
         box-shadow: inset 0 -0.4em $bl-md ;
         color: $bl-md !important;
       }
@@ -53,16 +55,33 @@
   .navbar-toggle {
     border-color: $bl-dk;
     background-color: $bl-dk;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0;
 
     &:hover,
     &:focus {
       background-color: $bl-dk;
+    }
+
+    .icon-bar {
+      width: 100%;
+      height: 0.3rem;
+      margin-top: 0.5rem;
+      border-radius: 0;
     }
   }
   .navbar-collapse,
   .navbar-form {
     border-top: solid 0 $bl-md;
     border-bottom: solid 0 $bl-md;
+  }
+
+  .navbar-brand-image {
+    display: block;
+  }
+  .navbar-collapse {
+
   }
 }
 

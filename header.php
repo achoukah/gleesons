@@ -11,11 +11,19 @@
 <?php wp_head(); ?>
 <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700|Noto+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#header").sticky({topSpacing:0});
+  });
+</script>
+
 </head>
 <body <?php body_class( 'media-center-xs' ); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <div class="site-wrapper">
 
-<header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+<header id="header" class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
 
   <nav class="navbar navbar-static-top navbar-inverse" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
     <div class="container">
