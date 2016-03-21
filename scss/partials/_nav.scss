@@ -16,6 +16,7 @@
 
     @include mobile {
       background-color: $bl-md;
+      height: auto;
     }
     @include tablet {
 
@@ -62,6 +63,7 @@
         padding: 1em;
         background: $bl-md;
         color: $wh-lt;
+        height: auto;
       }
       @include tablet {
         // padding: 1em;
@@ -150,10 +152,10 @@
       color: $wh-lt;
     }
   }
-
-
   .navbar-collapse {
-
+    &.in {
+      overflow-y: auto;
+    }
   }
 }
 
