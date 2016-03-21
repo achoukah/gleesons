@@ -4,22 +4,29 @@
 * ==========================================================================
 */
 
+* {
+  // border: medium dotted red !important;
+  // box-sizing: border-box !important;
+}
+
 body.home {
   position: relative;
+  // width: 100vw;
 
   .entry-title {
     display: none;
   }
   .content-sidebar-wrapper {
-    padding-top: 110vh;
-    padding-bottom: 1em;
-    width: 100vw;
+    padding: 85vh 0 1em;
+    // width: 100vw;
+
+
 
     .container {
-      width: 100vw !important;
-      padding: 0;
-      margin: 0 0 1em 0;
-      position: relative;
+      // width: 100vw;
+      // padding: 0;
+      // margin: 0 0 1em 0;
+      // position: relative;
 
       .entry-content {
         position: relative;
@@ -51,11 +58,11 @@ body.home {
         line-height: 1.5;
 
         &:nth-child(1) {
-          width: 100vw;
+          width: auto;
           height: auto;
           left: 0;
           display: block;
-          margin: 0 0 3sem 0;
+          margin: 0 0 3em 0;
           float: none;
 
 
