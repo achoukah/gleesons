@@ -12,9 +12,10 @@
     right: 2em;
     top: 5em;
     background-color: $wh-lt;
+    height: 80px;
 
     @include mobile {
-      background-color: $bl-lt;
+      background-color: $bl-md;
     }
     @include tablet {
 
@@ -26,10 +27,22 @@
       box-shadow: inset 0 -0.6em $bl-md;
 
       @include mobile {
-
+        box-shadow: 0;
+        color: $wh-lt;
       }
       @include tablet {
 
+      }
+
+      &::before {
+        @include tablet {
+          content: '»';
+          margin-right: 0.5em;
+        }
+        @include mobile {
+          content: '»';
+          margin-right: 0.5em;
+        }
       }
 
       &:hover,
@@ -43,6 +56,7 @@
       color: $bl-md;
       padding: 2em 1em 1.6em;
       background: transparent;
+      height: 80px;
 
       @include mobile {
         padding: 1em;
@@ -50,9 +64,9 @@
         color: $wh-lt;
       }
       @include tablet {
-        padding: 1em;
-        background: $bl-md;
-        color: $wh-lt;
+        // padding: 1em;
+        // background: $bl-md;
+        // color: $wh-lt;
       }
 
       &:hover,
@@ -79,22 +93,9 @@
     margin: 1em 0;
     background: $wh-lt;
 
-
-    @include mobile {
-
-    }
-    @include tablet {
-
-    }
     .navbar-brand-image {
       display: block;
 
-      @include mobile {
-
-      }
-      @include tablet {
-
-      }
       img {
         @include mobile {
           margin: 0;
@@ -148,11 +149,6 @@
       background: $bl-md;
       color: $wh-lt;
     }
-    @include tablet {
-      background: $bl-md;
-      color: $wh-lt;
-    }
-
   }
 
 
