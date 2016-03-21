@@ -242,53 +242,77 @@ header.site-header {
 
 /* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav {
-  position: absolute;
   right: 2em;
   top: 5em;
-  background: white;
+  background-color: white;
 }
 
-/* line 16, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+@media (max-width: 768px) {
+  /* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  .navbar-inverse .navbar-nav {
+    background-color: #4986D4;
+  }
+}
+
+/* line 23, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > .active > a {
-  background: transparent;
+  background-color: transparent;
   color: #265898;
   box-shadow: inset 0 -0.6em #265898;
 }
 
-/* line 21, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 35, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-  background: transparent;
+  background-color: transparent;
   box-shadow: inset 0 -1em #265898;
   color: #265898 !important;
 }
 
-/* line 28, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 42, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #265898;
   padding: 2em 1em 1.6em;
   background: transparent;
 }
 
-/* line 33, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+@media (max-width: 768px) {
+  /* line 42, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 1em;
+    background: #265898;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 42, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  .navbar-inverse .navbar-nav > li > a {
+    padding: 1em;
+    background: #265898;
+    color: white;
+  }
+}
+
+/* line 58, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   box-shadow: inset 0 -0.4em #265898;
   color: #265898 !important;
 }
 
-/* line 52, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 77, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-header {
   height: 3em;
   margin: 1em 0;
   background: white;
 }
 
-/* line 64, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 89, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-header .navbar-brand-image {
   display: block;
 }
 
 @media (max-width: 768px) {
-  /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  /* line 98, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
   .navbar .navbar-header .navbar-brand-image img {
     margin: 0;
   }
@@ -299,12 +323,12 @@ header.site-header {
 * Mobile Navigation
 * ==========================================================================
 */
-/* line 93, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 118, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar {
   background-color: white;
 }
 
-/* line 96, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 121, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-toggle {
   border-color: #264265;
   background-color: #264265;
@@ -314,12 +338,12 @@ header.site-header {
   border-radius: 0;
 }
 
-/* line 104, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 129, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
   background-color: #264265;
 }
 
-/* line 109, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 134, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-toggle .icon-bar {
   width: 100%;
   height: 0.3rem;
@@ -327,11 +351,30 @@ header.site-header {
   border-radius: 0;
 }
 
-/* line 116, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+/* line 141, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
 .navbar .navbar-collapse,
 .navbar .navbar-form {
   border-top: solid 0 #265898;
   border-bottom: solid 0 #265898;
+  max-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  /* line 141, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    background: #265898;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* line 141, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_nav.scss */
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    background: #265898;
+    color: white;
+  }
 }
 
 /*
@@ -481,14 +524,13 @@ body.home .content-sidebar-wrapper .container .row .col-lg-12 {
 body.home header {
   position: absolute;
   top: 0;
-  height: calc(5em + 8px);
 }
 
 /* line 103, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header.site-header::before {
   content: 'The Ironing Board';
   width: 100%;
-  height: calc(100vh - 88px);
+  height: calc(80vh - 88px);
   display: block;
   color: white;
   font-size: 3em;
@@ -497,7 +539,7 @@ body.home header.site-header::before {
   top: 0;
   z-index: 100;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: 300;
   text-shadow: 0 0 3em rgba(26, 26, 26, 0.5);
@@ -510,13 +552,13 @@ body.home header.site-header::before {
 @media (max-width: 768px) {
   /* line 103, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
   body.home header.site-header::before {
-    padding: 1.5em 0.5em 0;
+    padding: 1em 0.5em 0;
   }
 }
 
 /* line 133, /Applications/MAMP/htdocs/wordpress/wp-content/themes/gleesons/scss/partials/_home.scss */
 body.home header .navbar {
-  top: calc(100vh - 88px);
+  top: calc(80vh - 88px);
 }
 
 /*

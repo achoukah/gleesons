@@ -96,14 +96,14 @@ body.home {
   header {
     position: absolute;
     top: 0;
-    height: calc(5em + 8px);
+    // height: calc(5em + 8px);
 
     &.site-header {
 
       &::before {
         content: 'The Ironing Board';
         width: 100%;
-        height: calc(100vh - 88px);
+        height: calc(80vh - 88px);
         display: block;
         color: $wh-lt;
         font-size: 3em;
@@ -112,7 +112,7 @@ body.home {
         top: 0;
         z-index: 100;
         text-align: center;
-        padding: 2em;
+        padding: 1em;
         font-family: $serif;
         font-weight: 300;
         text-shadow: 0 0 3em $bk-tr-5;
@@ -122,7 +122,7 @@ body.home {
         background-size: cover;
 
         @include mobile {
-          padding: 1.5em 0.5em 0;
+          padding: 1em 0.5em 0;
         }
         @include tablet {
 
@@ -131,7 +131,7 @@ body.home {
 
     }
     .navbar{
-      top: calc(100vh - 88px);
+      top: calc(80vh - 88px);
     }
   }
 }
